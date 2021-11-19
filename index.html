@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <div class="inputs">
+        <label for="text">Texto:</label>
+        <input type="text" id="text-input" maxlength="60">
+        <label for="text">Foto:</label>
+        <input type="file" id="meme-insert" value="tese">
+    </div>
+    <div id="meme-image-container">
+        <img id="meme-image" src="./imgs/meme1.png" name="meme-image">
+        <p id="meme-text"></p>
+    </div>
+    <div class="buttons-containter">
+        <button class="custom-button" id="fire">Fire</button>
+        <button class="custom-button" id="water">Water</button>
+        <button class="custom-button" id="earth">Earth</button>
+    </div>
+    <div id="pre-memes">
+        <img class="pre-meme-img" id="meme-1" src="./imgs/meme1.png" alt="">
+        <img class="pre-meme-img" id="meme-2" src="./imgs/meme2.png" alt="">
+        <img class="pre-meme-img" id="meme-3" src="./imgs/meme3.png" alt="">
+        <img class="pre-meme-img" id="meme-4" src="./imgs/meme4.png" alt="">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

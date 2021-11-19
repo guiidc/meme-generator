@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+/*
+font-family: 'Anton', sans-serif;
+*/
+
+body {
+  background-image: linear-gradient(to right , rgb(5 , 43 , 150) , rgb(15 , 71 , 226));
+}
+
+html {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#meme-image-container {
+  position: relative;
+  max-height: 281.25px;
+  width: 500px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 20px auto;
+
+}
+
+.inputs {
+  text-align: center;
+}
+
+#meme-image {
+  height: 281.25px;
+  width: 500px;
+}
+
+#meme-text {
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+  font-family: Anton, sans-serif;
+  max-width: 450px;
+  word-wrap: break-word;
+}
+
+.buttons-containter {
+  text-align: center;
+}
+
+.custom-button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  color: white;
+  font-family: Anton, sans-serif;
+  font-weight: 200;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+  border: 5px double blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+#pre-memes {
+  text-align: center;
+}
+
+#pre-memes img {
+  margin: 5px;
+  height: 100px;
+}
